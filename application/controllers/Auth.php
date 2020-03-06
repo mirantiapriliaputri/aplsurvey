@@ -21,7 +21,6 @@ class Auth extends CI_Controller
             //validasi success
             $this->_login();
         }
-        
     }
     
     private function _login()
