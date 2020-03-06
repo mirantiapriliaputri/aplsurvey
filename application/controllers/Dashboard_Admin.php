@@ -8,14 +8,14 @@ class Dashboard_Admin extends CI_Controller
     {
         $this->load->view('templates/header');
         $this->load->view('templates/topbar');
-        $this->load->view('dashboard');
+        $this->load->view('dash/dashboard');
         $this->load->view('templates/footer');
     }
     public function admin()
     {
         $this->load->view('templates/header');
         $this->load->view('templates/topbar');
-        $this->load->view('dash_admin/admin');
+        $this->load->view('dash/admin');
         $this->load->view('templates/footer');
     }
 }
